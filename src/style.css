@@ -1,8 +1,7 @@
 body {
   background-color: #edb1f1;
-  margin: 30px;
-  padding: 40px;
-  max-width: 800%;
+  margin: 60px auto;
+  max-width: 800px;
 }
 :root {
   --primary-font-color: #8971d0;
@@ -32,7 +31,7 @@ p {
   border: var(--primary-border);
   padding: 20px;
   margin: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   color: var(--primary-font-color);
   background-color: var(--button-background);
   box-shadow: var(--primary-box-shadow);
@@ -41,7 +40,7 @@ p {
   border: 1px solid forestgreen;
   padding: 20px;
   margin: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   color: var(--primary-font-color);
   background-color: var(--button-background);
   box-shadow: var(--primary-box-shadow);
@@ -55,6 +54,7 @@ p {
 .home {
   border: var(--primary-border);
   box-shadow: var(--primary-box-shadow);
+  border-radius: 10px;
   font-size: 18px;
 }
 /* .paragraph-one {
@@ -93,13 +93,29 @@ p {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 .primary-link {
   color: var(--primary-font-color);
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
   background-color: var(--button-background);
   box-shadow: var(--primary-box-shadow);
+}
+@media (max-width: 576px) {
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+  img {
+    padding: 20px;
+    margin: 20px auto;
+  }
+  h2 {
+    padding: 5px;
+    margin: 5px;
+  }
 }
