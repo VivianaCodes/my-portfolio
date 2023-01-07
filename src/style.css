@@ -1,0 +1,105 @@
+body {
+  background-color: #edb1f1;
+  margin: 30px;
+  padding: 40px;
+  max-width: 800%;
+}
+:root {
+  --primary-font-color: #8971d0;
+  --button-background: #8ef6e4;
+  --primary-box-shadow: 10px 10px 10px rgba(137, 113, 208, 0.9);
+  --primary-border: 1px solid #8971d0;
+}
+h1 {
+  text-align: center;
+  color: var(--primary-font-color);
+}
+h2 {
+  text-align: center;
+  color: var(--primary-font-color);
+}
+p {
+  text-align: center;
+  padding: 10px;
+  color: var(--primary-font-color);
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.contacts {
+  border: var(--primary-border);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  color: var(--primary-font-color);
+  background-color: var(--button-background);
+  box-shadow: var(--primary-box-shadow);
+}
+.about {
+  border: 1px solid forestgreen;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  color: var(--primary-font-color);
+  background-color: var(--button-background);
+  box-shadow: var(--primary-box-shadow);
+}
+.paragraphs {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  line-height: 1.5;
+}
+.home {
+  border: var(--primary-border);
+  box-shadow: var(--primary-box-shadow);
+  font-size: 18px;
+}
+/* .paragraph-one {
+  border: var(--primary-border);
+  background-color: var(--button-background);
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+.paragraph-two {
+  border: var(--primary-border);
+  background-color: var(--button-background);
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+} */
+#email-me {
+  justify-content: center;
+  margin-top: 20px;
+}
+.mail-me {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-font-color);
+  padding: 20px;
+}
+.homepage {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+  padding: 20px;
+  color: var(--primary-font-color);
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.primary-link {
+  color: var(--primary-font-color);
+  border-radius: 20px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: var(--button-background);
+  box-shadow: var(--primary-box-shadow);
+}
